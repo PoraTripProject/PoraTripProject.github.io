@@ -10,7 +10,7 @@ function toggleOpenClass(){
   burgerMenu.classList.toggle("open");
   burgerButton.classList.toggle("open");
   if(burgerMenu.classList.contains("open")){
-    body.style.height = "100vh";
+    body.style.height = "100%";
     body.style.overflow = "hidden";
   } else {
     body.style.height = "auto";
