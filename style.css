@@ -77,7 +77,7 @@
     flex-direction: column;
     row-gap: 14px;
     background: transparent;
-    z-index: 101;
+    z-index: 111;
 }
 
 .burger_line{
