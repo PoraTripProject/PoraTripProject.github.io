@@ -140,7 +140,7 @@
 .burger_nav{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+   /* justify-content: space-between;*/
 }
 
 .burger_menu.open{
