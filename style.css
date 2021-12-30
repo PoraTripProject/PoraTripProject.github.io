@@ -127,10 +127,12 @@
     justify-content: space-between;
     position: fixed;
     backdrop-filter: blur(5px);
-    bottom: 0;
-    right: 0;
+    width: 100vw;
+    height: 100vh;
     top: 0;
     left: 0;
+    right: 0;
+    bottom: 0;
     opacity: 0;
     transform: translateX(100%);
     transition: 0.4s linear;
@@ -147,6 +149,9 @@
     opacity: 1;
 }
 
+.burger_links{
+    width: 60%;
+}
 
 .burger_select_lan, .burger_links{
     font-family: 'Montserrat', sans-serif;
