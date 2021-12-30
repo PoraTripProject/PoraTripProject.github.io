@@ -2065,6 +2065,11 @@ footer{
     .main_head_block{
     background-position: center;
     }
+    
+    .pora_trip_block{
+    background-attachment: scroll;
+    background-position: top;
+    }
 }
 @media (min-width: 320px) and (max-width: 374px){
 
@@ -2144,6 +2149,11 @@ footer{
     .first_info_in_travel_block{
         font-size: 18px;
         line-height: 25px;
+    }
+    
+    .pora_trip_block{
+    background-attachment: scroll;
+    background-position: top;
     }
 
     .pora_trip_txt{
