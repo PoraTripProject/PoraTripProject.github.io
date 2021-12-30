@@ -2,6 +2,8 @@ let popup = document.getElementById("popup");
 let popup_btn = document.getElementById("popup_btn");
 const burgerButton = document.getElementById("burger_btn");
 const burgerMenu = document.getElementById("burger_menu");
+const chooseLan = document.getElementById("choose_lan");
+const selectLan = document.getElementById("select_lan");
 const body = document.body;
 
 function toggleOpenClass(){
@@ -15,6 +17,8 @@ function toggleOpenClass(){
     body.style.overflow = "auto";
   }
 }
+
+
 
 /*let input_tel = document.getElementById("input_tel");
 let input_sub = document.getElementById("input_submit");
@@ -63,8 +67,25 @@ function enableBodyScroll() {
     disableBodyScroll();
     disableBodyScroll({ savePosition: true });
   }
+
+  function openSelect(){
+    selectLan.classList.add("plus");
+    if(selectLan.classList.contains("plus")){
+      burgerMenu.height = "100vh";
+      burgerMenu.overflow = "hidden";
+    } else {
+      burgerMenu.height = "auto";
+      burgerMenu.style.overflow = "auto";
+    }
+    };
+
+  function closeSelect(){
+    selectLan.classList.remove("plus");
+  }
   
   popup_btn.addEventListener("click", openPopup);
   popup.addEventListener("click", closePopup);
   burgerMenu.addEventListener("click", toggleOpenClass);
-  burgerButton.addEventListener("click", toggleOpenClass)
+  burgerButton.addEventListener("click", toggleOpenClass);
+  chooseLan.addEventListener("click", openSelect);
+  selectLan.addEventListener("click", closeSelect);

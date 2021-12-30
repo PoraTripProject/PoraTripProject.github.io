@@ -99,7 +99,6 @@
     display: flex;
     flex-direction: column;
     position: fixed;
-    justify-content: space-between;
     transform: translateX(100%);
     transition: 0.4s linear;
     top: 0;
@@ -150,6 +149,15 @@
 
 .burger_select_lan{
     width: 35%;
+    display: flex;
+}
+
+.txt_select_lan{
+    margin-right: 14px;
+}
+
+.en{
+    margin-right: 6px;
 }
 
 /*=============================*/
