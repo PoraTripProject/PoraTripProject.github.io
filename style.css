@@ -104,7 +104,7 @@
     top: 0;
     left: 0;
     width: 100wh;
-    height: 100vh;
+    height: 90vh;
 }
 
 .burger_nav{
@@ -153,11 +153,11 @@
 }
 
 .burger_select_lan > .txt_select_lan{
-    margin-right: 14px;
+    margin-right: 16px;
 }
 
 .burger_select_lan > .en{
-    margin-right: 6px;
+    margin-right: 10px;
 }
 
 /*=============================*/
