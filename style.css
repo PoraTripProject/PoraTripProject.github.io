@@ -103,8 +103,8 @@
     transition: 0.4s linear;
     top: 0;
     left: 0;
-    width: 100wh;
-    height: 90vh;
+    width: 100%;
+    height: 100%;
 }
 
 .burger_nav{
@@ -148,7 +148,7 @@
 }
 
 .burger_select_lan{
-    width: 35%;
+    width: 38%;
     display: flex;
 }
 
