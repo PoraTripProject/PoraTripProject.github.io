@@ -124,7 +124,7 @@
 .burger_menu{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     position: fixed;
     backdrop-filter: blur(5px);
     bottom: 0;
