@@ -2061,6 +2061,10 @@ footer{
         justify-content: center;
         row-gap: 20px;
     }
+    
+    .main_head_block{
+    background-position: center;
+    }
 }
 @media (min-width: 320px) and (max-width: 374px){
 
@@ -2368,6 +2372,10 @@ footer{
         flex-wrap: wrap;
         justify-content: center;
         row-gap: 20px;
+    }
+    
+    .main_head_block{
+    background-position: center;
     }
 }
 
