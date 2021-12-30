@@ -152,11 +152,11 @@
     display: flex;
 }
 
-.txt_select_lan{
+.burger_select_lan > .txt_select_lan{
     margin-right: 14px;
 }
 
-.en{
+.burger_select_lan > .en{
     margin-right: 6px;
 }
 

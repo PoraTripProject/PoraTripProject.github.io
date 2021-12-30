@@ -18,17 +18,6 @@ function toggleOpenClass(){
   }
 }
 
-
-
-/*let input_tel = document.getElementById("input_tel");
-let input_sub = document.getElementById("input_submit");
-
-if(input_tel === true  && input_sub.click){
-  alert("Заявка Отправлена");  
-};*/
-
-
-
 function enableBodyScroll() {
     if (document.readyState === "complete") {
       document.body.style.position = "";
@@ -67,25 +56,8 @@ function enableBodyScroll() {
     disableBodyScroll();
     disableBodyScroll({ savePosition: true });
   }
-
-  function openSelect(){
-    selectLan.classList.add("plus");
-    if(selectLan.classList.contains("plus")){
-      burgerMenu.height = "100vh";
-      burgerMenu.overflow = "hidden";
-    } else {
-      burgerMenu.height = "auto";
-      burgerMenu.style.overflow = "auto";
-    }
-    };
-
-  function closeSelect(){
-    selectLan.classList.remove("plus");
-  }
   
   popup_btn.addEventListener("click", openPopup);
   popup.addEventListener("click", closePopup);
   burgerMenu.addEventListener("click", toggleOpenClass);
   burgerButton.addEventListener("click", toggleOpenClass);
-  chooseLan.addEventListener("click", openSelect);
-  selectLan.addEventListener("click", closeSelect);
