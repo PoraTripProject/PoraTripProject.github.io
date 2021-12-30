@@ -1823,6 +1823,10 @@ footer{
         height: 200px;
         padding: 140px 38px 10px 34px;
     }
+    
+    .under_header_vieo_main_txt{
+    font-size: 16px;
+}
 
     .first_flex_travel_block{
         width: 100%;
