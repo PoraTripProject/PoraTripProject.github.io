@@ -121,7 +121,7 @@
 
 .burger_menu.open{
     transform: translateX(0);
-    opacity: .97;
+    opacity: 1;
     background-color: white;
     transition: 0.4s linear;
     z-index: 101;
